@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST"){
         $username_err = "Username cannot be blank";
     }
     else{
-        $sql = "SELECT id FROM users WHERE username = ?";
+        $sql = "SELECT id FROM company WHERE username = ?";
         $stmt = mysqli_prepare($conn, $sql);
         if($stmt)
         {
@@ -60,7 +60,7 @@ if(trim($_POST['password']) !=  trim($_POST['confirm_password'])){
 // If there were no errors, go ahead and insert into the database
 if(empty($username_err) && empty($password_err) && empty($confirm_password_err))
 {
-    $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
+    $sql = "INSERT INTO company (username, password) VALUES (?, ?)";
     $stmt = mysqli_prepare($conn, $sql);
     if ($stmt)
     {
@@ -73,7 +73,7 @@ if(empty($username_err) && empty($password_err) && empty($confirm_password_err))
         // Try to execute the query
         if (mysqli_stmt_execute($stmt))
         {
-            header("location: login.php");
+            header("location: clogin.php");
         }
         else{
             echo "Something went wrong... cannot redirect!";
@@ -123,7 +123,7 @@ mysqli_close($conn);
         <a class="nav-link" style="color:#FF63B1" href="contact.html">Contact us</a>
       </li>
     </ul>
-    <form action="login.php" class="form-inline my-2 my-lg-0">
+    <form action="clogin.php" class="form-inline my-2 my-lg-0">
       <button class="btn" style="background-color:#FF63B1;color:white;margin-right:16px" >Already had an account</button>
     </form>
     <!--<form class="form-inline my-2 my-lg-0">
@@ -139,8 +139,8 @@ mysqli_close($conn);
 <form action="" method="post">
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label style="color:white" for="inputEmail4">Username</label>
-      <input type="text" class="form-control" name="username" id="inputEmail4" placeholder="Email">
+      <label style="color:white" for="inputEmail4">Company Name</label>
+      <input type="text" class="form-control" name="username" id="inputEmail4" placeholder="Name">
     </div>
     <div class="form-group col-md-6">
       <label style="color:white" for="inputPassword4">Password</label>
