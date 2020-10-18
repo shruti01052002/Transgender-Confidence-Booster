@@ -38,9 +38,9 @@
     <a href="https://www.indeed.com/rc/clk?jk=180056a21eda2670&from=vj&pos=bottom&jobsearchTk=1ektmcdaloc8k800&sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXg82wH5wZLP90OgjgOdCLs1wsdLqiuaGy5Gw05HfKNzLw&astse=7d4dc8e33e4f2a82&assa=4614"><h6 align="center" style="color:#FF63B1;margin-left:200px;padding: 10px">Apply</h6></a>
   </div>
   <div class="column">
-    <img src="https://teamwork-online-production.s3.amazonaws.com/uploads/thumb_576d6dd8-24d5-4a21-9186-a20b89f70773.jpg" alt="St. Louis City" style="margin: auto;margin-top: 20px;margin-left: 200px;padding: 10px;height:200px;width: 200px">
-    <h5 align="center" style="color:#FF63B1;margin-left:180px;padding: 10px">Academy Director</h5>
-    <a href="https://www.indeed.com/rc/clk?jk=3d45f05b55341f69&from=vj&pos=bottom&jobsearchTk=1ektmcdaloc8k800&sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXibemNVRlBZq48Ey3ezNo9RnUUKYs5yKqp3Fg7KgmoxhA&astse=4d8d3f0020c21e15&assa=5440"><h6 align="center" style="color:#FF63B1;margin-left:200px;padding: 10px">Apply</h6></a>
+    <img src="https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/36b7ae5ac138ee4095bc1c24f83fe9ec" alt="Fiserv Inc." style="margin: auto;margin-top: 20px;margin-left: 200px;padding: 10px;height:200px;width: 200px">
+    <h5 align="center" style="color:#FF63B1;margin-left:180px;padding: 10px">Strategic Account Manager</h5>
+    <a href="https://www.indeed.com/rc/clk?jk=8e867471c248329f&from=vj&pos=bottom&jobsearchTk=1ektpr7rroc9q800&sjdu=YmZE5d5THV8u75cuc0H6Y26AwfY51UOGmh3Z9h4OvXh-CFvBp_yIIlH-TO5oK1QNVAq81dAHm7GpE1MqdfeWCQ&astse=60ff795e9c631560&assa=1177"><h6 align="center" style="color:#FF63B1;margin-left:200px;padding: 10px">Apply</h6></a>
   </div>
 </div>
 <hr>
